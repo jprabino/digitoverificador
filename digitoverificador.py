@@ -10,7 +10,7 @@ except NameError:
 
 
 def sum_digits(digits):    
-    while digits>10:
+    while digits=>10:
         digstrstr = str(digits)
         digits = sum([int(o) for o in digstrstr])
     return digits
